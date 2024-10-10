@@ -1,0 +1,39 @@
+{
+  "name": "techinika-school",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.0-rc.1",
+    "@apollo/experimental-nextjs-app-support": "^0.10.1",
+    "@hookform/resolvers": "^3.4.0",
+    "@tinymce/tinymce-react": "^5.1.1",
+    "cookies-next": "^4.1.1",
+    "graphql": "^16.8.1",
+    "next": "^14.2.3",
+    "notiflix": "^3.2.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
+    "react-icons": "^5.2.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-loading-skeleton": "^3.4.0",
+    "react-player": "^2.16.0",
+    "react-quill": "^2.0.0",
+    "react-tabs": "^6.0.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
